@@ -1,0 +1,17 @@
+{
+    "name": "twi-bal",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Twitter balloon",
+    "content_scripts": [{
+      "matches": ["https://twitter.com/*"],
+      "js": [
+        "jquery-3.3.1.min.js",
+        "pixi.min.js",
+        "main.js"
+      ]
+    }],
+    "icons":{
+      "128":"icon.ico"
+    }
+  }
